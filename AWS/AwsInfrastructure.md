@@ -4,7 +4,9 @@
 
 ## Table of Contents
 
-* [Advantages of Cloud vs Traditional Data Centres](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/CloudComputingBasics.md#advantages-of-cloud-vs-traditional-data-centres)
+* [Top Level View](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsInfrastructure.md#top-level-view)
+* [Definitions](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsInfrastructure.md#definitions)
+* [Amazon address](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsInfrastructure.md#amazon-address)
 
 ## Top Level view
 
