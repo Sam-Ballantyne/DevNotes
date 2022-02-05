@@ -4,6 +4,7 @@
 
 ## Table of Contents
 
+* [What is Docker Swarm?](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Docker/dockerSwarm.md#what-is-docker-swarm)
 * [Definitions](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Docker/dockerCompose.md#definitions)
 * [Commands](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Docker/dockerCompose.md#commands)
 
@@ -21,7 +22,7 @@
 * __Manager Node:__ A type of node which hosts control features (e.g. schedules, state, cluster stores etc)
 * __Worker Node:__ A type of node which hosts Docker services and is controlled by manager nodes	
 * __Docker Service:__ A single microservice hosted in a container (e.g. web FE as part of a large application)
-    
+
 ## Commands
 
 Swarm has a series of commands which are only available when they are used as part of Docker Swarm
