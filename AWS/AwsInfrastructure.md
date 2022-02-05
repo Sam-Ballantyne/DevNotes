@@ -21,4 +21,4 @@
 
 ## Amazon address
 
-> \<area\>-\<subarea>-\<regionNum, availability zone\> e.g. us-east-2a
+> You read Amazon addresses in the following way: \<area\>-\<subarea>-\<regionNum, availability zone\> e.g. us-east-2a
