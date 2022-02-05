@@ -20,7 +20,7 @@
 
 * __Docker Swarm:__  A cluster of Docker nodes (both manager and worker nodes)
 * __Manager Node:__ A type of node which hosts control features (e.g. schedules, state, cluster stores etc)
-* __Worker Node:__ A type of node which hosts Docker services and is controlled by manager nodes	
+* __Worker Node:__ A type of node which hosts Docker services and is controlled by manager nodes
 * __Docker Service:__ A single microservice hosted in a container (e.g. web FE as part of a large application)
 
 ## Commands
