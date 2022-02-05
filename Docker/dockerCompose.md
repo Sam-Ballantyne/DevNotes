@@ -4,7 +4,8 @@
 
 ## Table of Contents
 
-* [What are containers?](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Docker/dockerOverview.md#what-are-containers)
+* [What is Docker compose?](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Docker/dockerCompose.md#what-is-docker-compose)
+* [Example](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Docker/dockerCompose.md#example)
 
 ## What is docker-compose?
 
