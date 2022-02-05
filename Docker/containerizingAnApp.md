@@ -15,10 +15,15 @@ Docker file is a declarative set of instructions for how docker should build an 
 ### Docker file common commands
 
 `FROM` Pulls an existing image
+
 `LABEL` Add meta data about the application
+
 `RUN` Execute a command e.g. `mkdir`
+
 `COPY` Copy files
+
 `WORKDIR` Sets current working directory
+
 `ENTRYPOINT` Starts the container
 
 ### Example Docker file
@@ -45,6 +50,8 @@ CMD ["node", "src/index.js"]
 `docker container start <container name>` Starts a stopped container
 
 `docker container rm <container name> -f` Removes container from list of containers using the force flag
+
+`docker image push <image tag>` Pushes image to repository (Dockerhub by default)
 
 > Note: Images are build time constructs whereas containers are run time constructs
 
