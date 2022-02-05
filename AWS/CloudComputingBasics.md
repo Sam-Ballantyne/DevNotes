@@ -4,8 +4,7 @@
 
 ## Table of Contents
 
-* [Advantages of Cloud vs Traditional Data Centres](##Advantages_Cloud_vs_Traditional_Data_Centres)
-* [Advantages of Cloud vs Traditional Data Centres](##Advantages of Cloud vs Traditional Data Centres)
+* [Advantages of Cloud vs Traditional Data Centres](#Advantages_Cloud_vs_Traditional_Data_Centres)
 * [Key-Terms](## Definitions)
 
 ## Advantages of Cloud vs Traditional Data Centres
