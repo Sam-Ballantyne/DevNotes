@@ -6,6 +6,7 @@
 
 * [Top Level View](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsInfrastructure.md#top-level-view)
 * [Support](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsInfrastructure.md#support)
+* [Interacting with AWS](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsInfrastructure.md#interacting-with-aws)
 * [Definitions](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsInfrastructure.md#definitions)
 * [Amazon address](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsInfrastructure.md#amazon-address)
 
@@ -25,6 +26,14 @@
 
 * __Personal Health Dashboard:__ Generates alerts for if there are issues outage which might impact you e.g. an outage
 * __Truster Advisor:__ Checks AWS resources and suggests improvements based on 5 categories (cost, performance, security, fault tolerance, service limits)
+
+## Interacting with AWS
+
+* __AWS Console:__ Access through a browser (alternatively an app) for access to most AWS Services
+* __AWS CLI:__ A command line interface for managing resources
+  * For the CLI you must generate access keys
+  * It is a bad idea to generate keys as a root user as it has root level permissions
+  * Better idea is to create an IAM user with limited permissions and generate the access keys for them
 
 ## Definitions
 
