@@ -9,4 +9,6 @@ Amazon Web Services notes
 * [AWS Infrastructure](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsInfrastructure.md)
 * [AWS Computation Services](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsComputationServices.md)
 * [AWS Content and Network Delivery Services](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsContentAndNetworkDeliveryServices.md)
-* [AWS File storage and data transfer services](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsFileAndDataTransferService.md)
+* [AWS File Storage and Data Transfer Services](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsFileAndDataTransferService.md)
+* [AWS Database Services](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsDatabaseServices.md)
+* [AWS Messaing Services](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsMessagingServices.md)
