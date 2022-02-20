@@ -7,6 +7,10 @@
 * [EC2](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsInfrastructure.md#ec2)
 * [AWS Elastic Beanstalk](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsInfrastructure.md#aws-elastic-beanstalk)
 * [AWS Lambda](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsInfrastructure.md#aws-lambda)
+* [Amazion Cloud Front](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsInfrastructure.md#amazion-cloud-front)
+* [Amazon API Gateway](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsInfrastructure.md#amazon-api-gateway)
+* [AWS Global Accelorator](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsInfrastructure.md#aws-global-accelorator)
+* [Definitions](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsInfrastructure.md#definitions)
 
 ## EC2
 
@@ -71,6 +75,33 @@ Web service which provides resizable compute capacity in the cloud which can be 
 * Reduced maintainance (no servers to manage as AWS manages it for you)
 * Enables fault tolerance by default
 * Scales on demand
+
+## Amazion Cloud Front
+
+* Content delivery network (CDN)
+* Designed so resources can be aquired from closest server
+* Works for both static and dynamic content
+* Uses AWS Edge locations
+* __AWS Shield:__ Protects against attack like DOS on the network
+
+## Amazon API Gateway
+
+* Fully managed API service
+* Directly integrates with other AWS services
+* Monitoring and metrics provided
+* Supports VPC and in-house private networks
+
+## AWS Global Accelorator
+
+* Networking service which channels your traffic through AWS's global infrastructure to improve performance
+* Uses IP resolution to resolve Edge locations
+* Once traffic hits the Edge location it routes the traffic through the AWS infrastructure rather than the public internet
+* Can route to:
+  * Load balancers
+  * Elastic endpoint
+  * EC2 instances
+* Traffic is optimised through AWS infrastructure rather than traditional web IP address resolution
+* No reliance on DNS resolution (I.E. not at the mercy of the cache not updating on a DNS server)
 
 ## Definitions
 
