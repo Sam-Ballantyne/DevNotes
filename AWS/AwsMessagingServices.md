@@ -4,7 +4,9 @@
 
 ## Table of Contents
 
-* [Amazon RDS](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsContentAndNetworkDeliveryServices.md#amazon-rds)
+* [Amazon SNS](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsContentAndNetworkDeliveryServices.md#amazon-sns)
+* [Amazon SQS](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsContentAndNetworkDeliveryServices.md#amazon-sqs)
+* [AWS Step Functions](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsContentAndNetworkDeliveryServices.md#amazon-step-functions)
 
 ## Amazon SNS
 

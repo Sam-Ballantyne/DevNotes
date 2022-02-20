@@ -12,3 +12,4 @@ Amazon Web Services notes
 * [AWS File Storage and Data Transfer Services](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsFileAndDataTransferService.md)
 * [AWS Database Services](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsDatabaseServices.md)
 * [AWS Messaing Services](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsMessagingServices.md)
+* [AWS Management and Governance Services](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsManagementAndGovernanceServices.md)
