@@ -4,10 +4,10 @@
 
 ## Table of Contents
 
-* [Amazon S3](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsInfrastructure.md#amazon-s3)
-* [Amazon S3 Glacier](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsInfrastructure.md#amazon-s3-glacier)
-* [EC2 File Storage](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsInfrastructure.md#ec2-file-storage)
-* [AWS Snowball](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsInfrastructure.md#aws-snowball)
+* [Amazon S3](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsContentAndNetworkDeliveryServices.md#amazon-s3)
+* [Amazon S3 Glacier](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsContentAndNetworkDeliveryServices.md#amazon-s3-glacier)
+* [EC2 File Storage](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsContentAndNetworkDeliveryServices.md#ec2-file-storage)
+* [AWS Snowball](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsContentAndNetworkDeliveryServices.md#aws-snowball)
 
 ## Amazon S3
 

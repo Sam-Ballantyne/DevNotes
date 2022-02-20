@@ -4,13 +4,13 @@
 
 ## Table of Contents
 
-* [EC2](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsInfrastructure.md#ec2)
-* [AWS Elastic Beanstalk](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsInfrastructure.md#aws-elastic-beanstalk)
-* [AWS Lambda](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsInfrastructure.md#aws-lambda)
-* [Amazion Cloud Front](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsInfrastructure.md#amazion-cloud-front)
-* [Amazon API Gateway](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsInfrastructure.md#amazon-api-gateway)
-* [AWS Global Accelorator](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsInfrastructure.md#aws-global-accelorator)
-* [Definitions](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsInfrastructure.md#definitions)
+* [EC2](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsComputationServices.md#ec2)
+* [AWS Elastic Beanstalk](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsComputationServices.md#aws-elastic-beanstalk)
+* [AWS Lambda](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsComputationServices.md#aws-lambda)
+* [Amazion Cloud Front](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsComputationServices.md#amazion-cloud-front)
+* [Amazon API Gateway](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsComputationServices.md#amazon-api-gateway)
+* [AWS Global Accelorator](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsComputationServices.md#aws-global-accelorator)
+* [Definitions](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsComputationServices.md#definitions)
 
 ## EC2
 

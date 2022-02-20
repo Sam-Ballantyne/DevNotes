@@ -4,11 +4,11 @@
 
 ## Table of Contents
 
-* [AWS VPC](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsInfrastructure.md#aws-vpc)
-* [AWS Direct Connection](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsInfrastructure.md#aws-direct-connection)
-* [Route 53](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsInfrastructure.md#route-53)
-* [Elastic Load Balancing](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsInfrastructure.md#elastic-load-balancing)
-* [Definitions](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsInfrastructure.md#definitions)
+* [AWS VPC](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsContentAndNetworkDeliveryServices.md#aws-vpc)
+* [AWS Direct Connection](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsContentAndNetworkDeliveryServices.md#aws-direct-connection)
+* [Route 53](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsContentAndNetworkDeliveryServices.md#route-53)
+* [Elastic Load Balancing](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsContentAndNetworkDeliveryServices.md#elastic-load-balancing)
+* [Definitions](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsContentAndNetworkDeliveryServices.md#definitions)
 
 ## AWS VPC
 
