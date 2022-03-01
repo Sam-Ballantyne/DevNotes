@@ -1,0 +1,24 @@
+# Singleton Design Pattern
+
+- - - -
+
+## Table of Contents
+
+* [What is a design pattern?](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Programming/DesignPatterns/DesignPatternsOverview.md#what-is-a-design-pattern)
+
+## Characteristics
+
+* A singleton is a class designed over to only ever have a single (or no) instance
+* The singleton class itself enforces this requirement
+* An example could be a shared resource like a file system
+* Singleton classes are created without parameters
+
+## Antipattern?
+
+* Promotes tight coupling
+* Is difficult to test
+* Doesn't follow principles such as:
+  * Separation of concerns
+  * Single responsibility (because they are responsible for managing their lifetime instance)
+
+> There are other ways you can achieve single responsability like static classes

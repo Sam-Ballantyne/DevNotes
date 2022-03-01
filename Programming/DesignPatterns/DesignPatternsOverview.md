@@ -4,9 +4,9 @@
 
 ## Table of Contents
 
-* [What is a design pattern?](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsContentAndNetworkDeliveryServices.md#what-is-a-design-pattern)
-* [Why should we use them?](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsContentAndNetworkDeliveryServices.md#why-should-we-use-them)
-* [What makes a design pattern?](https://github.com/Sam-Ballantyne/DevNotes/blob/main/AWS/AwsContentAndNetworkDeliveryServices.md#what-makes-a-design-pattern)
+* [What is a design pattern?](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Programming/DesignPatterns/DesignPatternsOverview.md#what-is-a-design-pattern)
+* [Why should we use them?](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Programming/DesignPatterns/DesignPatternsOverview.md#why-should-we-use-them)
+* [What makes a design pattern?](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Programming/DesignPatterns/DesignPatternsOverview.md#what-makes-a-design-pattern)
 
 ## What is a design pattern?
 
