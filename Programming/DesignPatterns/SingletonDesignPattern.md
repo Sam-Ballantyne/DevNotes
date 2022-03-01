@@ -22,3 +22,12 @@
   * Single responsibility (because they are responsible for managing their lifetime instance)
 
 > There are other ways you can achieve single responsability like static classes
+
+## Static classes vs Singletons
+
+* Singletons can do a number of things static classes cannot including:
+  * Implement interfaces
+  * Be passed into a method as an argument
+  * Be assigned to variables
+* Singletons also support polymorphism whereas static classes are purely procedural
+* Singletons can have state whereas static classes only have access to global state
