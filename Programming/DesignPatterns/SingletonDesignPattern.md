@@ -4,7 +4,9 @@
 
 ## Table of Contents
 
-* [What is a design pattern?](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Programming/DesignPatterns/DesignPatternsOverview.md#what-is-a-design-pattern)
+* [Characteristics](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Programming/DesignPatterns/SingletonDesignPattern.md#characteristics)
+* [Antipattern](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Programming/DesignPatterns/SingletonDesignPattern.md#antipattern)
+* [Static classes vs Singletons](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Programming/DesignPatterns/SingletonDesignPattern.md#static-classes-vs-singletons)
 
 ## Characteristics
 
@@ -13,7 +15,7 @@
 * An example could be a shared resource like a file system
 * Singleton classes are created without parameters
 
-## Antipattern?
+## Antipattern
 
 * Promotes tight coupling
 * Is difficult to test
