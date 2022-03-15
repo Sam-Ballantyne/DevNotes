@@ -10,7 +10,7 @@
 
 ## Characteristics
 
-* A singleton is a class designed over to only ever have a single (or no) instance
+* A singleton is a class designed over to only ever have one or no instance at a given time
 * The singleton class itself enforces this requirement
 * An example could be a shared resource like a file system
 * Singleton classes are created without parameters
