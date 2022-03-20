@@ -5,6 +5,7 @@ Programming notes
 
 ## Contents
 
+* [Decorator Design Pattern](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Programming/DesignPatterns/DecoratorDesignPattern.md)
 * [Design Patterns Overview](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Programming/DesignPatterns/DesignPatternsOverview.md)
 * [Facade Design Pattern](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Programming/DesignPatterns/FacadeDesignPattern.md)
 * [Singleton Design Pattern](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Programming/DesignPatterns/SingletonDesignPattern.md)
