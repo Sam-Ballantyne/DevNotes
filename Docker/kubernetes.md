@@ -8,6 +8,8 @@
 * [History](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Docker/kubernetes.md#history)
 * [General concepts](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Docker/kubernetes.md#general-concepts)
 * [kubectl](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Docker/kubernetes.md#kubectl)
+* [Pods](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Docker/kubernetes.md#pods)
+* [Deployments](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Docker/kubernetes.md#deployments)
 
 ## Overview
 
@@ -77,3 +79,42 @@
 * Can run a pod via they kubectl command line or with a YAML file
 * If you delete a Pod, a new one will be recreated because of the Kubernetes deployment
 * You would need to delete the deployment which is managing the Pods first of all
+
+### Pod Health
+
+* Pod health is determined via probes
+* This is performed periodically via a kubelet on a container
+* Probe types
+  * Liveness Probe : Determines if a Pod is running as expected and healthy
+  * Readiness Probe: Determines whether a Pod is ready to handle requests
+* Failed Pod containers are restarted by default
+* Type of check performed via the probe will depend on what is being run in the container
+  * e.g. if it's a web server try a HTTP GET
+* Probes can return either:
+  * Success
+  * Failure
+  * Unknown
+* Can define the probes in YAML
+
+## Deployments
+
+### Core concepts
+
+* Replica Set : Declarative way to manage Pods
+  * Including self-healthing mechanism
+  * Fault tolerance  
+  * Ensure the required number of Pods are running
+  * Allow horizontal scaling of Pods
+  * Relies on Pod templates
+  * No need to create Pods directly
+
+* Deployments : Declarative way to manage pods utiliziing Replica Sets
+  * Scales Pods by scaling ReplicaSets
+  * Supports zero-downtime update by creating and destroying Replica Sets
+  * Provides rollback functionality
+
+* Deployment options :
+  * Rolling update : Deploys new Pods alongside older ones, when new Pod is ready an old one is removed
+  * Blue / Green deployment : Multiple environments running concurretly then switch traffic once the environment has been proven working
+  * Canary deployment : Small amount of traffic goes to new deployment to check service works as expected
+  * Rollback
