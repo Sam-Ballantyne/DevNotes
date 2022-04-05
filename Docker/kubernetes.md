@@ -10,6 +10,7 @@
 * [kubectl](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Docker/kubernetes.md#kubectl)
 * [Pods](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Docker/kubernetes.md#pods)
 * [Deployments](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Docker/kubernetes.md#deployments)
+* [Storage](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Docker/kubernetes.md#storage)
 
 ## Overview
 
@@ -151,3 +152,50 @@
   * Service acts as an alias for an external service
   * Allows a Service to act as the proxy for an external Service
   * External Service details are hidden from the cluster (easier to change)
+
+## Storage
+
+* Volume : Can be used to hold data and state for both Containers and Pods
+  * Volumes persist the data unlike Containers which lose their data
+  * Pods can attach to several Volumes
+  * Containers rely on a MountPath to access Volumes
+  * Kubernetes supports (but not limited to):
+    * Volumes
+    * Persistant Volumes
+    * Persistant Volume claims
+    * Storage Classes
+  * Volume references a storage location
+  * Each Volume must have a unique name
+  * The Volume is attached to a Pod and may or may not persist for the lifetime of the Pod
+
+* Volume types:
+  * emptyDir : Empty directory useful for storing transient data (shares a Pod's lifetime) and it used for sharing data between Containers running in a Pod
+  * Host Path : Pod mounts to mounts filesystem
+  * Network File System (NFS) : Mounted into the Pod
+  * configMap / secrets : Special type of resource which
+  * Persistant Volume Claim : Provides Pods with a more persistant storage option that is abstracted away from the details
+  * Cloud : Cluster wide storage
+
+### Persistent Volume (PV)
+
+* Is a cluster-wide storage unit provisioned by an administrator with a lifecycle independent from a Pod
+* To use a PV you use a Persistent Volume Claim to request access to the PV
+* The PV relies on a network attached storage (NAS)
+* Normally provisioned by a cluster administrator
+* Available to a Pod even if it gets rescheduled to a different node
+* Relies on storage provider such as NFS, cloud storage or other
+* Associated with a Pod via a Persistent Volume Claim
+* Kubernetes binds the PVC to the PV
+* Pods then use the PVC to talk to the PV
+
+### Storage Classes
+
+* Storage Classes are a type of storage template that can be used to dynamically provision storage
+* Defines different "classes" of storage
+* Support dynamic provisioning of Persistent Volumes
+
+1) Create Storage class (YAML)
+2) Create PVC that references the Storage Class
+3) Kubernetes uses Storage Class provisioner to provision a persistent volume
+4) Storage provisioned, PV created and bound to PVC
+5) Pod volume references PVC
