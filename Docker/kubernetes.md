@@ -11,6 +11,7 @@
 * [Pods](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Docker/kubernetes.md#pods)
 * [Deployments](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Docker/kubernetes.md#deployments)
 * [Storage](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Docker/kubernetes.md#storage)
+* [Config](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Docker/kubernetes.md#config)
 
 ## Overview
 
@@ -199,3 +200,33 @@
 3) Kubernetes uses Storage Class provisioner to provision a persistent volume
 4) Storage provisioned, PV created and bound to PVC
 5) Pod volume references PVC
+
+## Config
+
+### ConfigMap
+
+* Stores configuration information and provides it to containers
+* Can store entire files (key is the filename and the value is the contents which can be XML, JSON etc)
+  * Or key-value pairs
+* Can provide the config values via the command line
+* Config Manifest file in YAML
+* Config maps can be accessed from a Pod using:
+  * Environment variables (key-value pairs)
+  * ConfigMap Volume (access as files)
+
+### Secrets
+
+* Small amount of sensative data e.g. token, password or key
+* Kubernetes can store this sensative data
+* Avoids storing the data in images, files or deployment manifests which could be compromised
+* Can mount secrets into Pods as files or environment variables
+* Kubernetes only makes the secret available to nodes requesting it
+* Secrets are stored ion tmpfs on a Node not on disc
+  * Temporary File System) is a temporary file storage data is stored in volatile memory instead of a persistent storage device.
+
+* Best Practice
+  * Encrypt the data
+  * Limit access to etcd (where secrets are stored to admins only)
+  * Use SSL /TSL for etcd peer to peer communication
+  * Manifest files are not encrypted
+  * Control who can create Pods (as they can access the secret through the Pod)
