@@ -118,3 +118,36 @@
   * Blue / Green deployment : Multiple environments running concurretly then switch traffic once the environment has been proven working
   * Canary deployment : Small amount of traffic goes to new deployment to check service works as expected
   * Rollback
+
+### Creating services
+
+* A service provides a single point of entry for accessing one or more pods
+* Can't rely on IP addresses being consistent especially as Pods can die
+* Pods can be horizontally scaled so each Pod gets its own IP address when it is scheduled (not ahead of time)
+* Services abstract Pod IP addresses from consumers
+* Services load balance between the Pods
+* Relies on labels to associate a Service with a Pod
+* Node's kube-proxy creates a virtual IP for Services
+* Services are not ephemeral (short lived)
+* Services create endpoints which sit inbetween the Service and the Pod
+
+* Service types:
+  * Service can be defined in different ways
+  * ClusterIP (default) : Expose the service on a cluster-interal IP
+  * Only pods within the cluster can talk to the Service
+  * Allows Pods talk to other Pods through Services
+
+* NodePort : Expose the service on each Node's IP at a static port
+  * Allocates a port from a range
+  * Each Node proxies the allocated port
+
+* LoadBalancer : Provision an external IP to act as a load balancer for the Service
+  * Exposes a Service externally
+  * Useful when used with a cloud provider's load balancer
+  * NodePort and ClusterIP Services are created
+  * Each Node proxies the allocated port
+
+* ExternalName : Maps a Service to a DNS name
+  * Service acts as an alias for an external service
+  * Allows a Service to act as the proxy for an external Service
+  * External Service details are hidden from the cluster (easier to change)
