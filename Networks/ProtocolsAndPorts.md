@@ -8,6 +8,7 @@
 * [Data transfer protocols](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Networks/OsiModel.md#data-transfer-protocols)
 * [DNS](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Networks/OsiModel.md#dns)
 * [NTP](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Networks/OsiModel.md#ntp)
+* [Transmission control protocol](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Networks/OsiModel.md#transmission-control-protocol)
 
 ## Overview
 
@@ -54,3 +55,32 @@
 * Network Time protocol
 * NTP server can reply to client requests as to the exact time
 * Replies are done in UTC to avoid timezone issues
+
+## Transmission Control Protocol
+
+### TCP
+
+* One of the most important protocols for the modern internet
+* Protocol for a 3 way handshake
+  * Client sends a SYN (synchronise message) to the server
+  * Server responds with a SYN-ACK
+  * Client responds ACK
+  * Now a session has been established and a connection between the client and the server exists
+  * Once this has been established we can use another protocol like HTTP to send and request data
+  * Means we can request that data be resent if the we as the client does not receive it and respond saying we have received the data when we do
+
+* Also uses a 4 way disconnect
+  * 1st device sends FIN message
+  * 2nd device sends a FIN-ACK
+  * 1st device sends anther FIN message
+  * 2nd device sends another FIN-ACK message and the session is ended
+* Alternatively a devices sends a TCP RST (reset) message (immediately severes the connection)
+
+### UDP
+
+* User Datagram Protocol, another transport layer protocol
+* UDP wraps up some application level data
+* Then sends it onto the network to an address
+* No handshake or session is established
+* Hence there is no reliable communication (message may or may not be received)
+* Used for small efficient data transfer
