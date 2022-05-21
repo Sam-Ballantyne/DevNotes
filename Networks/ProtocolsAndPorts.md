@@ -9,6 +9,7 @@
 * [DNS](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Networks/ProtocolsAndPorts.md#dns)
 * [NTP](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Networks/ProtocolsAndPorts.md#ntp)
 * [Transmission control protocol](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Networks/ProtocolsAndPorts.md#transmission-control-protocol)
+* [Transport layer addressing](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Networks/ProtocolsAndPorts.md#transmission-layer-addressing)
 
 ## Overview
 
