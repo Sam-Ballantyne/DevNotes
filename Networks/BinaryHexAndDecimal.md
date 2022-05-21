@@ -33,5 +33,5 @@ So the total for the 8 bit binary number would be 14
 Hexadecimal simply replaces numbers 10 to 15 with letters as in the following table
 
 Decimal value | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15
- --- |--- |--- |--- |--- |--- |--- |--- |---
+ --- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |---
 Hexadecimal digit | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F
