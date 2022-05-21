@@ -84,3 +84,14 @@
 * No handshake or session is established
 * Hence there is no reliable communication (message may or may not be received)
 * Used for small efficient data transfer
+
+## Transport layer addressing
+
+* Use port numbers to ID the application level protocol which is being used
+* Server port numbers : Categorised into well known and registered port numbers
+* Well known ports 0 - 1023 (e.g. HTTP port 80, SSH port 22)
+* Layer 7 application protocols are reliant on having a port and transport protocol
+* All transport network protocols rely on IP
+* Registered ports 1024 - 49,151
+* Client Port Numbers : Ephemeral (short lived) port numbers
+* Ports 49,152 - 65,535 are not assigned, controlled, or registered
