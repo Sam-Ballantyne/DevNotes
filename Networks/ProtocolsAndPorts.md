@@ -4,11 +4,11 @@
 
 ## Table of Contents
 
-* [Overview](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Networks/OsiModel.md#overview)
-* [Data transfer protocols](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Networks/OsiModel.md#data-transfer-protocols)
-* [DNS](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Networks/OsiModel.md#dns)
-* [NTP](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Networks/OsiModel.md#ntp)
-* [Transmission control protocol](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Networks/OsiModel.md#transmission-control-protocol)
+* [Overview](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Networks/ProtocolsAndPorts.md#overview)
+* [Data transfer protocols](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Networks/ProtocolsAndPorts.md#data-transfer-protocols)
+* [DNS](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Networks/ProtocolsAndPorts.md#dns)
+* [NTP](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Networks/ProtocolsAndPorts.md#ntp)
+* [Transmission control protocol](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Networks/ProtocolsAndPorts.md#transmission-control-protocol)
 
 ## Overview
 
