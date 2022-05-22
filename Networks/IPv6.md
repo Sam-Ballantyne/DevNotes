@@ -14,7 +14,7 @@
   * Tend to remove any leading 0s in each hextet to reduce the size
   * Expontentially more addresses available than IPv4
 * Interface ID has 2 to 64 power (on a single network /network portion)
-* Network portion  2 to 64 power 
+* Network portion  2 to 64 power
 * Generally not written in binary due to size of the address
 * Split between 64 bits for the network portion and 64 bits for the interface indentifier
 
