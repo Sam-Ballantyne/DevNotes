@@ -5,6 +5,7 @@
 ## Table of Contents
 
 * [Overview](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Networks/IPv6.md#overview)
+* [Address Acquisition](https://github.com/Sam-Ballantyne/DevNotes/blob/main/Networks/IPv6.md#address-acquisition)
 
 ## Overview
 
